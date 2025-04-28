@@ -6,6 +6,6 @@ import { UserInputComponent } from './user-input/user-input.component';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
-  imports: [HeaderComponent, UserInputComponent]
+  imports: [HeaderComponent, UserInputComponent],
 })
 export class AppComponent {}
