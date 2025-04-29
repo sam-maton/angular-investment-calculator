@@ -15,7 +15,7 @@ export interface InvestmentInput {
 export class InvestmentsService {
   constructor() {}
 
-  resultData = signal<InvestmentInput[]>([]);
+  resultData = signal<InvestmentInput[] | undefined>(undefined);
 
   calculateInvestmentResults(
     initialInvestment: number,
